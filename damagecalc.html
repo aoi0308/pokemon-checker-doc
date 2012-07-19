@@ -1,297 +1,297 @@
 <!doctype html>
 <html lang="ja">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes,">
-	<link rel="stylesheet" href="css/common.css" type="text/css">
-	<title>ダメージ計算機</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes,">
+  <link rel="stylesheet" href="css/common.css" type="text/css">
+  <title>ダメージ計算機</title>
 </head>
 <body>
-	<ul>
-		<li><a href="index.html">TOP PAGEへ</a></li>
-		<li><a href="#at_display">攻撃側画面</a></li>
-		<li><a href="#at_item">攻撃側アイテム</a></li>
-		<li><a href="#at_ability">攻撃側特性</a></li>
-		<li><a href="#df_display">防御側画面</a></li>
-		<li><a href="#df_item">防御側アイテム</a></li>
-		<li><a href="#df_ability">防御側特性</a></li>
-		<li><a href="#other">その他</a></li>
-		<li><a href="#weather">天候</a></li>
-		<li><a href="#result">計算結果</a></li>
-		<li><a href="#menu">メニュー</a></li>
-	</ul>
+  <ul>
+    <li><a href="index.html">TOP PAGEへ</a></li>
+    <li><a href="#at_display">攻撃側画面</a></li>
+    <li><a href="#at_item">攻撃側アイテム</a></li>
+    <li><a href="#at_ability">攻撃側特性</a></li>
+    <li><a href="#df_display">防御側画面</a></li>
+    <li><a href="#df_item">防御側アイテム</a></li>
+    <li><a href="#df_ability">防御側特性</a></li>
+    <li><a href="#other">その他</a></li>
+    <li><a href="#weather">天候</a></li>
+    <li><a href="#result">計算結果</a></li>
+    <li><a href="#menu">メニュー</a></li>
+  </ul>
 
-	<h1>ダメージ計算機</h1>
-	<p>ポケモン・わざ・特性・アイテムなどを指定してダメージの計算を行うことが出来ます。各項目を入力後、画面下部にある「ダメージ計算」ボタンをクリック(タップ)してください。また「攻守交替」ボタンをクリックすることで攻撃側と防御側のポケモンの入れ替えが可能です。※計算結果にミスがある可能性があることをご了承ください。<br>
-	　ダブルバトル・トリプルバトル時の複数攻撃時のダメージはシングルではなくダブルを指定してください。</p>
-	<a href="image/damagecalc/1.png"><img src="image/damagecalc/1.png" width="144" height="240" /></a>
+  <h1>ダメージ計算機</h1>
+  <p>ポケモン・わざ・特性・アイテムなどを指定してダメージの計算を行うことが出来ます。各項目を入力後、画面下部にある「ダメージ計算」ボタンをクリック(タップ)してください。また「攻守交替」ボタンをクリックすることで攻撃側と防御側のポケモンの入れ替えが可能です。※計算結果にミスがある可能性があることをご了承ください。<br>
+  　ダブルバトル・トリプルバトル時の複数攻撃時のダメージはシングルではなくダブルを指定してください。</p>
+  <a href="image/damagecalc/1.png"><img src="image/damagecalc/1.png" width="144" height="240" /></a>
 
-	<h2 id="at_display">攻撃側画面</h2>
-	<div>
-		攻撃側の画面では以下について指定することが出来ます。
-		<ul>
-			<li>攻撃ポケモン</li>
-			<li>レベル</li>
-			<li>性格</li>
-			<li>タイプ(の上書き)</li>
-			<li>わざ名</li>
-			<li>わざの威力・タイプ・分類</li>
-			<li>攻撃(特攻)の個体値・努力値・ランク</li>
-			<li>特性</li>
-			<li>アイテム</li>
-		</ul>
-
-		<p>　攻撃ポケモンは名前を部分一致で絞り込みます。ひらがな・カタカナで動作します。<br>　タイプ(の上書き)はポケモン本来のタイプを指定したタイプで上書きします(みずびたしやアルセウスのプレートなどで使ってください)。<br>　わざの威力・タイプ・分類はデフォルトでは隠れていますので「わざの設定を表示」をクリックしてください。</p>
-	</div>
-	<a href="image/damagecalc/2.png"><img src="image/damagecalc/2.png" width="144" height="240" /></a>
-
-	<h2 id="at_item">攻撃側アイテム</h2>
-
-	<h3>威力1.1倍</h3>
-	<p>ちからのハチマキやものしりメガネなどが該当します。</p>
+  <h2 id="at_display">攻撃側画面</h2>
+  <div>
+    攻撃側の画面では以下について指定することが出来ます。
+    <ul>
+      <li>攻撃ポケモン</li>
+      <li>レベル</li>
+      <li>性格</li>
+      <li>タイプ(の上書き)</li>
+      <li>わざ名</li>
+      <li>わざの威力・タイプ・分類</li>
+      <li>攻撃(特攻)の個体値・努力値・ランク</li>
+      <li>特性</li>
+      <li>アイテム</li>
+    </ul>
+
+    <p>　攻撃ポケモンは名前を部分一致で絞り込みます。ひらがな・カタカナで動作します。<br>　タイプ(の上書き)はポケモン本来のタイプを指定したタイプで上書きします(みずびたしやアルセウスのプレートなどで使ってください)。<br>　わざの威力・タイプ・分類はデフォルトでは隠れていますので「わざの設定を表示」をクリックしてください。</p>
+  </div>
+  <a href="image/damagecalc/2.png"><img src="image/damagecalc/2.png" width="144" height="240" /></a>
+
+  <h2 id="at_item">攻撃側アイテム</h2>
+
+  <h3>威力1.1倍</h3>
+  <p>ちからのハチマキやものしりメガネなどが該当します。</p>
 
-	<h3>威力1.2倍</h3>
-	<p>各種プレートやドラゴン珠などが該当します。</p>
+  <h3>威力1.2倍</h3>
+  <p>各種プレートやドラゴン珠などが該当します。</p>
 
-	<h3>威力1.5倍</h3>
-	<p>各種ジュエルが該当します。</p>
+  <h3>威力1.5倍</h3>
+  <p>各種ジュエルが該当します。</p>
 
-	<h3>たつじんのおび</h3>
-	<p>効果抜群のときダメージを1.2倍します。</p>
+  <h3>たつじんのおび</h3>
+  <p>効果抜群のときダメージを1.2倍します。</p>
 
-	<h3>いのちのたま</h3>
-	<p>ダメージを1.3倍します。</p>
+  <h3>いのちのたま</h3>
+  <p>ダメージを1.3倍します。</p>
 
-	<h3>こだわり</h3>
-	<p>こだわりハチマキ・こだわりメガネのことで、ダメージを1.5倍します。</p>
+  <h3>こだわり</h3>
+  <p>こだわりハチマキ・こだわりメガネのことで、ダメージを1.5倍します。</p>
 
-	<h3>ふといほね</h3>
-	<p>カラカラ/ガラガラ専用アイテムです。こうげきを2倍します。</p>
+  <h3>ふといほね</h3>
+  <p>カラカラ/ガラガラ専用アイテムです。こうげきを2倍します。</p>
 
-	<h3>でんきだま</h3>
-	<p>ピカチュウ専用アイテムです。わざの威力を2倍します。</p>
+  <h3>でんきだま</h3>
+  <p>ピカチュウ専用アイテムです。わざの威力を2倍します。</p>
 
-	<h3>しんかいのキバ</h3>
-	<p>パールル専用アイテムです。とくこうを2倍します。</p>
+  <h3>しんかいのキバ</h3>
+  <p>パールル専用アイテムです。とくこうを2倍します。</p>
 
-	<h3>こころのしずく</h3>
-	<p>ラティオス/ラティアス専用アイテムです。とくこうを1.5倍します。</p>
+  <h3>こころのしずく</h3>
+  <p>ラティオス/ラティアス専用アイテムです。とくこうを1.5倍します。</p>
 
-	<a href="image/damagecalc/3.png"><img src="image/damagecalc/3.png" width="144" height="240" /></a>
-	<a href="image/damagecalc/4.png"><img src="image/damagecalc/4.png" width="144" height="240" /></a>
+  <a href="image/damagecalc/3.png"><img src="image/damagecalc/3.png" width="144" height="240" /></a>
+  <a href="image/damagecalc/4.png"><img src="image/damagecalc/4.png" width="144" height="240" /></a>
 
-	<h2 id="at_ability">攻撃側特性</h2>
+  <h2 id="at_ability">攻撃側特性</h2>
 
-	<h3>威力0.75倍</h3>
-	<p>異性の場合のとうそうしんが該当します。</p>
+  <h3>威力0.75倍</h3>
+  <p>異性の場合のとうそうしんが該当します。</p>
 
-	<h3>威力1.2倍</h3>
-	<p>すてみやてつのこぶしなどが該当します。</p>
+  <h3>威力1.2倍</h3>
+  <p>すてみやてつのこぶしなどが該当します。</p>
 
-	<h3>威力1.25倍</h3>
-	<p>同性の場合のとうそうしんが該当します。</p>
+  <h3>威力1.25倍</h3>
+  <p>同性の場合のとうそうしんが該当します。</p>
 
-	<h3>威力1.3倍</h3>
-	<p>ちからずくやすなのちからなどが該当します。</p>
+  <h3>威力1.3倍</h3>
+  <p>ちからずくやすなのちからなどが該当します。</p>
 
-	<h3>威力1.5倍</h3>
-	<p>テクニシャンやげきりゅうなどが該当します。</p>
+  <h3>威力1.5倍</h3>
+  <p>テクニシャンやげきりゅうなどが該当します。</p>
 
-	<h3>こんじょう/はりきり</h3>
-	<p>こうげきを1.5倍します。</p>
+  <h3>こんじょう/はりきり</h3>
+  <p>こうげきを1.5倍します。</p>
 
-	<h3>てきおうりょく</h3>
-	<p>タイプ一致補正を1.5倍の代わりに2倍にします。</p>
+  <h3>てきおうりょく</h3>
+  <p>タイプ一致補正を1.5倍の代わりに2倍にします。</p>
 
-	<h3>ヨガパワー/ちからもち</h3>
-	<p>こうげきを2倍します。</p>
+  <h3>ヨガパワー/ちからもち</h3>
+  <p>こうげきを2倍します。</p>
 
-	<h3>いろめがね</h3>
-	<p>効果いまひとつの時ダメージを2倍します(1/2倍->1倍・1/4倍->1/2倍)。</p>
+  <h3>いろめがね</h3>
+  <p>効果いまひとつの時ダメージを2倍します(1/2倍->1倍・1/4倍->1/2倍)。</p>
 
-	<h3>サンパワー</h3>
-	<p>天候が晴れのときとくこうを1.5倍します。</p>
+  <h3>サンパワー</h3>
+  <p>天候が晴れのときとくこうを1.5倍します。</p>
 
-	<h3>プラス/マイナス</h3>
-	<p>とくこうを1.5倍します。</p>
+  <h3>プラス/マイナス</h3>
+  <p>とくこうを1.5倍します。</p>
 
-	<h3>スナイパー</h3>
-	<p>急所のダメージを1.5倍します(つまり通常ダメージの3倍です)。</p>
+  <h3>スナイパー</h3>
+  <p>急所のダメージを1.5倍します(つまり通常ダメージの3倍です)。</p>
 
-	<h3>スロースタート</h3>
-	<p>こうげきを1/2倍します。</p>
+  <h3>スロースタート</h3>
+  <p>こうげきを1/2倍します。</p>
 
-	<h3>よわき</h3>
-	<p>こうげき/とくこうを1/2倍します。</p>
+  <h3>よわき</h3>
+  <p>こうげき/とくこうを1/2倍します。</p>
 
-	<a href="image/damagecalc/5.png"><img src="image/damagecalc/5.png" width="144" height="240" /></a>
-	<a href="image/damagecalc/6.png"><img src="image/damagecalc/6.png" width="144" height="240" /></a>
-	<a href="image/damagecalc/7.png"><img src="image/damagecalc/7.png" width="144" height="240" /></a>
+  <a href="image/damagecalc/5.png"><img src="image/damagecalc/5.png" width="144" height="240" /></a>
+  <a href="image/damagecalc/6.png"><img src="image/damagecalc/6.png" width="144" height="240" /></a>
+  <a href="image/damagecalc/7.png"><img src="image/damagecalc/7.png" width="144" height="240" /></a>
 
-	<h2 id="df_display">防御側画面</h2>
+  <h2 id="df_display">防御側画面</h2>
 
-	<div>
-		防御側の画面では以下について指定することが出来ます。
-		<ul>
-			<li>防御ポケモン</li>
-			<li>レベル</li>
-			<li>性格</li>
-			<li>タイプ(の上書き)</li>
-			<li>ＨＰの個体値・努力値・ランク</li>
-			<li>防御(特防)の個体値・努力値・ランク</li>
-			<li>特性</li>
-			<li>アイテム</li>
-		</ul>
+  <div>
+    防御側の画面では以下について指定することが出来ます。
+    <ul>
+      <li>防御ポケモン</li>
+      <li>レベル</li>
+      <li>性格</li>
+      <li>タイプ(の上書き)</li>
+      <li>ＨＰの個体値・努力値・ランク</li>
+      <li>防御(特防)の個体値・努力値・ランク</li>
+      <li>特性</li>
+      <li>アイテム</li>
+    </ul>
 
-		<p>　攻撃ポケモンは名前を部分一致で絞り込みます。ひらがな・カタカナで動作します。<br>　タイプ(の上書き)はポケモン本来のタイプを指定したタイプで上書きします(みずびたしやアルセウスのプレートなどで使ってください)。</p>
-	</div>
-	<a href="image/damagecalc/8.png"><img src="image/damagecalc/8.png" width="144" height="240" /></a>
+    <p>　攻撃ポケモンは名前を部分一致で絞り込みます。ひらがな・カタカナで動作します。<br>　タイプ(の上書き)はポケモン本来のタイプを指定したタイプで上書きします(みずびたしやアルセウスのプレートなどで使ってください)。</p>
+  </div>
+  <a href="image/damagecalc/8.png"><img src="image/damagecalc/8.png" width="144" height="240" /></a>
 
-	<h2 id="df_item">防御側アイテム</h2>
+  <h2 id="df_item">防御側アイテム</h2>
 
-	<h3>半減木の実</h3>
-	<p>効果抜群のときダメージを1/2倍します。</p>
+  <h3>半減木の実</h3>
+  <p>効果抜群のときダメージを1/2倍します。</p>
 
-	<h3>ホズの実</h3>
-	<p>ノーマルタイプの攻撃のダメージを1/2倍します。</p>
+  <h3>ホズの実</h3>
+  <p>ノーマルタイプの攻撃のダメージを1/2倍します。</p>
 
-	<h3>ねらいのまと</h3>
-	<p>タイプによって無効化する攻撃を無効化しません。</p>
+  <h3>ねらいのまと</h3>
+  <p>タイプによって無効化する攻撃を無効化しません。</p>
 
-	<h3>しんかのきせき</h3>
-	<p>最終進化系ではないポケモンのとき、ぼうぎょ/とくぼうを1.5倍します。</p>
+  <h3>しんかのきせき</h3>
+  <p>最終進化系ではないポケモンのとき、ぼうぎょ/とくぼうを1.5倍します。</p>
 
-	<h3>メタルパウダー</h3>
-	<p>メタモン専用アイテムです。ぼうぎょを2倍します。</p>
+  <h3>メタルパウダー</h3>
+  <p>メタモン専用アイテムです。ぼうぎょを2倍します。</p>
 
-	<h3>しんかいのウロコ</h3>
-	<p>パールル専用アイテムです。とくぼうを2倍します。</p>
+  <h3>しんかいのウロコ</h3>
+  <p>パールル専用アイテムです。とくぼうを2倍します。</p>
 
-	<h3>こころのしずく</h3>
-	<p>ラティオス/ラティアス専用アイテムです。とくぼうを1.5倍します。</p>
+  <h3>こころのしずく</h3>
+  <p>ラティオス/ラティアス専用アイテムです。とくぼうを1.5倍します。</p>
 
-	<a href="image/damagecalc/9.png"><img src="image/damagecalc/9.png" width="144" height="240" /></a>
-	<a href="image/damagecalc/10.png"><img src="image/damagecalc/10.png" width="144" height="240" /></a>
+  <a href="image/damagecalc/9.png"><img src="image/damagecalc/9.png" width="144" height="240" /></a>
+  <a href="image/damagecalc/10.png"><img src="image/damagecalc/10.png" width="144" height="240" /></a>
 
-	<h2 id="df_ability">防御側特性</h2>
+  <h2 id="df_ability">防御側特性</h2>
 
-	<h3>たいねつ</h3>
-	<p>ほのおタイプの攻撃のダメージを1/2倍します。</p>
+  <h3>たいねつ</h3>
+  <p>ほのおタイプの攻撃のダメージを1/2倍します。</p>
 
-	<h3>あついしぼう</h3>
-	<p>ほのお/こおりタイプの攻撃のダメージを1/2倍します。</p>
+  <h3>あついしぼう</h3>
+  <p>ほのお/こおりタイプの攻撃のダメージを1/2倍します。</p>
 
-	<h3>かんそうはだ</h3>
-	<p>ほのおタイプのわざの威力を1.25倍します。</p>
+  <h3>かんそうはだ</h3>
+  <p>ほのおタイプのわざの威力を1.25倍します。</p>
 
-	<h3>ハードロック/フィルタ</h3>
-	<p>効果抜群のときダメージを3/4倍します。</p>
+  <h3>ハードロック/フィルタ</h3>
+  <p>効果抜群のときダメージを3/4倍します。</p>
 
-	<h3>ふしぎなうろこ</h3>
-	<p>ぼうぎょを1.5倍します。</p>
+  <h3>ふしぎなうろこ</h3>
+  <p>ぼうぎょを1.5倍します。</p>
 
-	<h3>マルチスケイル</h3>
-	<p>ダメージを1/2倍します。</p>
+  <h3>マルチスケイル</h3>
+  <p>ダメージを1/2倍します。</p>
 
-	<a href="image/damagecalc/11.png"><img src="image/damagecalc/11.png" width="144" height="240" /></a>
-	<a href="image/damagecalc/12.png"><img src="image/damagecalc/12.png" width="144" height="240" /></a>
+  <a href="image/damagecalc/11.png"><img src="image/damagecalc/11.png" width="144" height="240" /></a>
+  <a href="image/damagecalc/12.png"><img src="image/damagecalc/12.png" width="144" height="240" /></a>
 
-	<h2 id="other">その他</h2>
+  <h2 id="other">その他</h2>
 
-	<h3>半減壁</h3>
-	<p>ダメージタイプが「シングル」のときダメージを1/2倍します。ダメージタイプが「ダブル」のときダメージを2/3倍します。半減壁(ダブル)も同時に選択されていた場合、半減壁(ダブル)が優先されます。</p>
+  <h3>半減壁</h3>
+  <p>ダメージタイプが「シングル」のときダメージを1/2倍します。ダメージタイプが「ダブル」のときダメージを2/3倍します。半減壁(ダブル)も同時に選択されていた場合、半減壁(ダブル)が優先されます。</p>
 
-	<h3>半減壁(ダブル)</h3>
-	<p>ダメージタイプが「シングル」でも「ダブル」でもダメージを2/3倍します。</p>
+  <h3>半減壁(ダブル)</h3>
+  <p>ダメージタイプが「シングル」でも「ダブル」でもダメージを2/3倍します。</p>
 
-	<h3>やけど</h3>
-	<p>こうげきを1/2倍します。</p>
+  <h3>やけど</h3>
+  <p>こうげきを1/2倍します。</p>
 
-	<h3>てだすけ</h3>
-	<p>わざの威力を1.5倍します。</p>
+  <h3>てだすけ</h3>
+  <p>わざの威力を1.5倍します。</p>
 
-	<h3>さきどり</h3>
-	<p>ダメージを1.5倍します。</p>
+  <h3>さきどり</h3>
+  <p>ダメージを1.5倍します。</p>
 
-	<h3>もらいび</h3>
-	<p>ほのおタイプの攻撃のダメージを1.5倍します。</p>
+  <h3>もらいび</h3>
+  <p>ほのおタイプの攻撃のダメージを1.5倍します。</p>
 
-	<h3>フラワーギフト(攻撃側)</h3>
-	<p>天候が晴れのときこうげきを1.5倍します。</p>
+  <h3>フラワーギフト(攻撃側)</h3>
+  <p>天候が晴れのときこうげきを1.5倍します。</p>
 
-	<h3>フラワーギフト(防御側)</h3>
-	<p>天候が晴れのときとくぼうが1.5倍します。</p>
+  <h3>フラワーギフト(防御側)</h3>
+  <p>天候が晴れのときとくぼうが1.5倍します。</p>
 
-	<h3>フレンドガード</h3>
-	<p>ダメージを3/4倍します。</p>
+  <h3>フレンドガード</h3>
+  <p>ダメージを3/4倍します。</p>
 
-	<h3>ミラクルアイ</h3>
-	<p>あくタイプのポケモンにエスパータイプのわざでダメージを与えられます。</p>
+  <h3>ミラクルアイ</h3>
+  <p>あくタイプのポケモンにエスパータイプのわざでダメージを与えられます。</p>
 
-	<h3>みやぶる/かぎわける</h3>
-	<p>ゴーストタイプのポケモンにノーマル/かくとうタイプのわざでダメージを与えられます。</p>
+  <h3>みやぶる/かぎわける</h3>
+  <p>ゴーストタイプのポケモンにノーマル/かくとうタイプのわざでダメージを与えられます。</p>
 
-	<h3>じゅうりょく</h3>
-	<p>ひこうタイプのポケモンにじめんタイプのわざでダメージを与えられます。</p>
+  <h3>じゅうりょく</h3>
+  <p>ひこうタイプのポケモンにじめんタイプのわざでダメージを与えられます。</p>
 
-	<h3>はねやすめ</h3>
-	<p>ひこうタイプの補正を計算に含めません(ひこうタイプはないものとして扱われる)。</p>
+  <h3>はねやすめ</h3>
+  <p>ひこうタイプの補正を計算に含めません(ひこうタイプはないものとして扱われる)。</p>
 
-	<a href="image/damagecalc/13.png"><img src="image/damagecalc/13.png" width="144" height="240" /></a>
-	<a href="image/damagecalc/14.png"><img src="image/damagecalc/14.png" width="144" height="240" /></a>
-	<a href="image/damagecalc/15.png"><img src="image/damagecalc/15.png" width="144" height="240" /></a>
+  <a href="image/damagecalc/13.png"><img src="image/damagecalc/13.png" width="144" height="240" /></a>
+  <a href="image/damagecalc/14.png"><img src="image/damagecalc/14.png" width="144" height="240" /></a>
+  <a href="image/damagecalc/15.png"><img src="image/damagecalc/15.png" width="144" height="240" /></a>
 
-	<h2 id="weather">天候</h2>
-	<p>各天候を選択したときの効果です。</p>
+  <h2 id="weather">天候</h2>
+  <p>各天候を選択したときの効果です。</p>
 
-	<h3>はれ</h3>
-	<ul>
-		<li>ほのおタイプの攻撃のダメージ1.5倍</li>
-		<li>みずタイプの攻撃のダメージ1/2倍</li>
-		<li>フラワーギフト・サンパワーの効果発動</li>
-		<li>ポワルンのタイプがほのおタイプに</li>
-		<li>ウェザーボールのタイプがほのおタイプに</li>
-	</ul>
+  <h3>はれ</h3>
+  <ul>
+    <li>ほのおタイプの攻撃のダメージ1.5倍</li>
+    <li>みずタイプの攻撃のダメージ1/2倍</li>
+    <li>フラワーギフト・サンパワーの効果発動</li>
+    <li>ポワルンのタイプがほのおタイプに</li>
+    <li>ウェザーボールのタイプがほのおタイプに</li>
+  </ul>
 
-	<h3>あめ</h3>
-	<ul>
-		<li>みずタイプの攻撃のダメージ1.5倍</li>
-		<li>ほのおタイプの攻撃のダメージ1/2倍</li>
-		<li>ソーラービームのダメージ1/2倍</li>
-		<li>ポワルンのタイプがみずタイプに</li>
-		<li>ウェザーボールのタイプがみずタイプに</li>
-	</ul>
+  <h3>あめ</h3>
+  <ul>
+    <li>みずタイプの攻撃のダメージ1.5倍</li>
+    <li>ほのおタイプの攻撃のダメージ1/2倍</li>
+    <li>ソーラービームのダメージ1/2倍</li>
+    <li>ポワルンのタイプがみずタイプに</li>
+    <li>ウェザーボールのタイプがみずタイプに</li>
+  </ul>
 
-	<h3>すなあらし</h3>
-	<ul>
-		<li>いわタイプのポケモンのとくぼう1.5倍</li>
-		<li>ソーラービームのダメージ1/2倍</li>
-		<li>ウェザーボールのタイプがいわタイプに</li>
-	</ul>
+  <h3>すなあらし</h3>
+  <ul>
+    <li>いわタイプのポケモンのとくぼう1.5倍</li>
+    <li>ソーラービームのダメージ1/2倍</li>
+    <li>ウェザーボールのタイプがいわタイプに</li>
+  </ul>
 
-	<h3>あられ</h3>
-	<ul>
-		<li>ソーラービームのダメージ1/2倍</li>
-		<li>ポワルンのタイプがこおりタイプに</li>
-		<li>ウェザーボールのタイプがこおりタイプに</li>
-	</ul>
+  <h3>あられ</h3>
+  <ul>
+    <li>ソーラービームのダメージ1/2倍</li>
+    <li>ポワルンのタイプがこおりタイプに</li>
+    <li>ウェザーボールのタイプがこおりタイプに</li>
+  </ul>
 
-	<a href="image/damagecalc/21.png"><img src="image/damagecalc/21.png" width="144" height="240" /></a>
+  <a href="image/damagecalc/21.png"><img src="image/damagecalc/21.png" width="144" height="240" /></a>
 
-	<h2 id="result">計算結果</h2>
+  <h2 id="result">計算結果</h2>
 
-	<p>「ダメージ計算」ボタンをクリックすることで計算結果を確認できます。また計算結果をクリックすることで、急所ダメージ及び各乱数の場合のダメージも一覧で確認することが出来ます。</p>
+  <p>「ダメージ計算」ボタンをクリックすることで計算結果を確認できます。また計算結果をクリックすることで、急所ダメージ及び各乱数の場合のダメージも一覧で確認することが出来ます。</p>
 
-	<a href="image/damagecalc/16.png"><img src="image/damagecalc/16.png" width="144" height="240" /></a>
-	<a href="image/damagecalc/17.png"><img src="image/damagecalc/17.png" width="144" height="240" /></a>
-	<a href="image/damagecalc/18.png"><img src="image/damagecalc/18.png" width="144" height="240" /></a>
-	<a href="image/damagecalc/19.png"><img src="image/damagecalc/19.png" width="144" height="240" /></a>
+  <a href="image/damagecalc/16.png"><img src="image/damagecalc/16.png" width="144" height="240" /></a>
+  <a href="image/damagecalc/17.png"><img src="image/damagecalc/17.png" width="144" height="240" /></a>
+  <a href="image/damagecalc/18.png"><img src="image/damagecalc/18.png" width="144" height="240" /></a>
+  <a href="image/damagecalc/19.png"><img src="image/damagecalc/19.png" width="144" height="240" /></a>
 
-	<h2 id="menu">メニュー</h2>
-	<p>メニューから攻撃側/防御側の表示・非表示、他画面への切り替え、ヘルプが行えます。</p>
+  <h2 id="menu">メニュー</h2>
+  <p>メニューから攻撃側/防御側の表示・非表示、他画面への切り替え、ヘルプが行えます。</p>
 
-	<a href="image/damagecalc/20.png"><img src="image/damagecalc/20.png" width="144" height="240" /></a>
+  <a href="image/damagecalc/20.png"><img src="image/damagecalc/20.png" width="144" height="240" /></a>
 
-	<p><a href="index.html">TOP PAGEへ</a></p>
+  <p><a href="index.html">TOP PAGEへ</a></p>
 </body>
 </html>
