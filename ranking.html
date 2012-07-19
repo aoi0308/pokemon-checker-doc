@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes,">
+	<link rel="stylesheet" href="css/common.css" type="text/css">
+	<title>ランキング</title>
+</head>
+<body>
+	<ul>
+		<li><a href="index.html">TOP PAGEへ</a></li>
+		<li><a href="#text_seek">テキストボックスとシークバー</a></li>
+		<li><a href="#click">クリック時の動作</a></li>
+		<li><a href="#menu">メニュー</a></li>
+	</ul>
+
+	<h1>ランキング</h1>
+	<p>この画面では<a href="pokemonlist.html">ポケモン一覧</a>と同様にポケモンをリスト表示します。異なる点は種族値を元にしたランキング表示を行う点です。</p>
+	<a href="image/ranking/1.png"><img src="image/ranking/1.png" width="144" height="240" /></a>
+
+	<h2 id="text_seek">テキストボックスとシークバー</h2>
+	<p>画面上部にあるテキストボックス及びシークバーでリストに表示されるポケモンの下限が設定できます。テキストボックスに直接数値を入力した場合、入力した値を超えない最も近い種族値に補完します。</p>
+	<a href="image/ranking/2.png"><img src="image/ranking/2.png" width="144" height="240" /></a>
+
+	<h2 id="click">クリック時の動作</h2>
+	<p>リスト表示されているポケモンをクリック(タップ)することで<a href="pokemoninfo.html">ポケモン情報</a>に画面が切り替わります。</p>
+
+	<h2 id="menu">メニュー</h2>
+	<p>メニューからフィルタリング、フィルタリングのクリア、ステータスの切り替え、他画面への切り替え、ヘルプが行えます。</p>
+	<a href="image/ranking/3.png"><img src="image/ranking/3.png" width="144" height="240" /></a>
+
+	<h3>フィルタリング</h3>
+	<p>フィルタメニューから、タイプ、特性、習得わざ、地方によるリストのフィルタリングが行えます。</p>
+	<ul>
+		<li>タイプ１・タイプ２どちらか一方のみ選択した場合は、<span class="important">選択したタイプを持つ</span>ポケモンを絞り込みます。</li>
+		<li>タイプ１・タイプ２で同じタイプを選択した場合は、<span class="important">選択したタイプのみを持つ</span>ポケモンを絞り込みます。</li>
+		<li>タイプ１・タイプ２で異なるタイプを選択した場合、<span class="important">選択したタイプを共に持つ</span>ポケモンを絞り込みます。</li>
+		<li>習得わざは<span class="important">使用可能ポケモン</span>を絞り込みます。つまり進化前が覚える場合でもリストには表示されます。なお、存在しないわざ名を入力した場合はそれは無視されます。</li>
+		<li>地方は<span class="important">図鑑番号</span>を元に絞り込みます。地方とはポケモンが初めて登場した地方と言うことです。</li>
+	</ul>
+	<a href="image/ranking/4.png"><img src="image/ranking/4.png" width="144" height="240" /></a>
+	<a href="image/ranking/7.png"><img src="image/ranking/7.png" width="144" height="240" /></a>
+	<a href="image/ranking/8.png"><img src="image/ranking/8.png" width="144" height="240" /></a>
+
+	<h3>クリア</h3>
+	<p>フィルタで設定した内容及び、フィルタリング後のリストをリセットします。</p>
+
+	<h3>ステータスの切り替え</h3>
+	<p>メニューに表示されている「素早」及び、「その他」からランキングに使用するステータスを切り替えられます。「その他」をクリック後さらに「ＨＰ」「攻撃」「防御」「特攻」「特防」「総合」のいずれかを選択します。</p>
+	<a href="image/ranking/5.png"><img src="image/ranking/5.png" width="144" height="240" /></a>
+	<a href="image/ranking/6.png"><img src="image/ranking/6.png" width="144" height="240" /></a>
+
+	<p><a href="index.html">TOP PAGEへ</a></p>
+</body>
+</html>

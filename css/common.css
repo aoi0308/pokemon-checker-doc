@@ -1,0 +1,60 @@
+/*
+ * h1見出しのレイアウト
+ */
+h1 {
+	color: #000099;
+	padding-left: 10px;
+	border-width: 0px 0px 2px 20px;
+	border-style: solid;
+	border-color: #9999ff;
+	line-height: 100%;
+}
+
+/*
+ * h2見出しのレイアウト
+ */
+h2 {
+	color: #000099;
+	padding-left: 10px;
+	border-width: 0px 0px 2px 15px;
+	border-style: solid;
+	border-color: #9999ff;
+	line-height: 100%;
+}
+
+/*
+ * h3見出しのレイアウト
+ */
+h3 {
+	color: #000099;
+	padding-left: 10px;
+	border-width: 0px 0px 2px 10px;
+	border-style: solid;
+	border-color: #9999ff;
+	line-height: 100%;
+}
+
+/*
+ * 必須項目
+ */
+*.required {
+	color: red;
+}
+
+/*
+ * 重要項目
+ */
+*.important {
+	color: red;
+}
+
+/*
+ * 斜体後の文字と被るため間隔をあける
+ */
+em {
+	padding-right: 4px;
+}
+
+*.delete {
+	text-decoration: line-through;
+}

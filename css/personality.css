@@ -1,0 +1,28 @@
+.empty {
+  background-color: #ccffcc;
+  text-align: center;
+}
+
+.param {
+  background-color: #ffe0e0;
+  text-align: center;
+}
+
+.personal {
+  background-color: #e1ffff;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.correct {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.up {
+  color: red;
+}
+
+.down {
+  color: blue;
+}

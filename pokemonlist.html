@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes,">
+	<link rel="stylesheet" href="css/common.css" type="text/css">
+	<title>ポケモン一覧</title>
+</head>
+<body>
+	<ul>
+		<li><a href="index.html">TOP PAGEへ</a></li>
+		<li><a href="#click">クリック時の動作</a></li>
+		<li><a href="#longclick">ロングクリック時の動作</a></li>
+		<li><a href="#menu">メニュー</a></li>
+	</ul>
+
+	<h1>ポケモン一覧</h1>
+	<p>ポケモンチェッカの基点となる画面です。この画面ではポケモン図鑑のようにポケモンが一覧表示され、ポケモンを選択することでさまざまな情報にアクセスすることが出来ます。</p>
+	<a href="image/pokemonlist/6.png"><img src="image/pokemonlist/6.png" width="144" height="240" /></a>
+
+	<h2 id="click">クリック時の動作</h2>
+	<p>リスト表示されているポケモンをクリック(タップ)することで<a href="pokemoninfo.html">ポケモン情報</a>に画面が切り替わります。</p>
+
+	<h2 id="longclick">ロングクリック時の動作</h2>
+	<p>リスト表示されているポケモンを長押し(約１秒)することでそのポケモンの個別メニューが表示されます。表示後選択することで、各画面に切り替わります。</p>
+	<a href="image/pokemonlist/1.png"><img src="image/pokemonlist/1.png" width="144" height="240" /></a>
+
+	<h2 id="menu">メニュー</h2>
+	<p>メニューからフィルタリング、フィルタリングのクリア、ソート、他画面への切り替え、ヘルプが行えます。</p>
+	<a href="image/pokemonlist/2.png"><img src="image/pokemonlist/2.png" width="144" height="240" /></a>
+
+	<h3>フィルタリング</h3>
+	<p>フィルタメニューから、名前、タイプ、タマゴグループ、特性、習得わざ、地方によるリストのフィルタリングが行えます。</p>
+	<ul>
+		<li>名前は部分一致によるフィルタリングを行います。また入力する名前はひらがな・カタカナどちらでも動作します。</li>
+		<li>タイプ１・タイプ２どちらか一方のみ選択した場合は、<span class="important">選択したタイプを持つ</span>ポケモンを絞り込みます。</li>
+		<li>タイプ１・タイプ２で同じタイプを選択した場合は、<span class="important">選択したタイプのみを持つ</span>ポケモンを絞り込みます。</li>
+		<li>タイプ１・タイプ２で異なるタイプを選択した場合、<span class="important">選択したタイプを共に持つ</span>ポケモンを絞り込みます。</li>
+		<li>習得わざは<span class="important">使用可能ポケモン</span>を絞り込みます。つまり進化前が覚える場合でもリストには表示されます。なお、存在しないわざ名を入力した場合はそれは無視されます。</li>
+		<li>地方は<span class="important">図鑑番号</span>を元に絞り込みます。地方とはポケモンが初めて登場した地方と言うことです。</li>
+	</ul>
+	<a href="image/pokemonlist/3.png"><img src="image/pokemonlist/3.png" width="144" height="240" /></a>
+	<a href="image/pokemonlist/4.png"><img src="image/pokemonlist/4.png" width="144" height="240" /></a>
+	<a href="image/pokemonlist/7.png"><img src="image/pokemonlist/7.png" width="144" height="240" /></a>
+
+	<h3>クリア</h3>
+	<p>フィルタで設定した内容及び、フィルタリング後のリストをリセットします。</p>
+
+	<h3>ソート</h3>
+	<p>リストの並び替えが行えます。</p>
+	<ul>
+		<li>昇順は図鑑番号であれば小さい番号から、名前であれば五十音順にリストを並び替えます</li>
+		<li>降順は図鑑番号であれば大きい番号から、名前であれば五十音の逆順にリストを並び替えます</li>
+	</ul>
+	<a href="image/pokemonlist/5.png"><img src="image/pokemonlist/5.png" width="144" height="240" /></a>
+
+	<p><a href="index.html">TOP PAGEへ</a></p>
+</body>
+</html>
